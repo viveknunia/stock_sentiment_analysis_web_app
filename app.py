@@ -63,6 +63,6 @@ def predict():
     #return the export_predictions and the f1_score
     return render_template('index.html',prediction_text = export_predictions,f1_score = report)
 
-#main funcction to run the app
+#main function to run the app
 if __name__ =='__main__':
     app.run(debug = True)
