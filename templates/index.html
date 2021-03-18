@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html >
-<!--From https://codepen.io/frytyler/pen/EGdtg-->
 <head>
   <meta charset="UTF-8">
   <title>ML API</title>
@@ -13,7 +12,7 @@
 
 <body>
  <div class="login">
-	<h1>Predict Salary Analysis</h1>
+	<h1>stock market sentiment analysis</h1>
 
      <!-- Main Input For Receiving Query to our ML -->
     <form action="/predict" method="post" enctype="multipart/form-data">
@@ -24,7 +23,7 @@
    <br>
    <br>
    { prediction_text } 
-   <h3> f1 score is</h3>
+   <h4> f1 score is</h4>
    {{f1_score}}
    <ul>
     {% for name in prediction_text %}
